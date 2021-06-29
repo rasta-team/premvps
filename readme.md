@@ -1,4 +1,4 @@
-OS : Debian 10
+OS : Ubuntu
 
 Steps:
 1-Update 
