@@ -12,13 +12,13 @@ source /etc/os-release
 ver=$VERSION_ID
 
 #detail nama perusahaan
-country=ID
-state=Indonesia
-locality=Indonesia
-organization=www.vpninjector.com
-organizationalunit=www.vpninjector.com
-commonname=www.vpninjector.com
-email=admin@vpninjector.com
+country=MY
+state=Malaysia
+locality=Malaysia
+organization=gilagajet.xyz
+organizationalunit=gilagajet.xyz
+commonname=gilagajet
+email=admin@gilagajet.xyz
 
 # simple password minimal
 wget -O /etc/pam.d/common-password "https://raw.githubusercontent.com/gilagajet/premvps/main/password"
@@ -72,8 +72,8 @@ apt-get remove --purge exim4 -y
 # install wget and curl
 apt -y install wget curl
 
-# set time GMT +7
-ln -fs /usr/share/zoneinfo/Asia/Jakarta /etc/localtime
+# set time GMT +8
+ln -fs /usr/share/zoneinfo/Asia/Kuala_Lumpur /etc/localtime
 
 # set locale
 sed -i 's/AcceptEnv/#AcceptEnv/g' /etc/ssh/sshd_config
