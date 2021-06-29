@@ -90,7 +90,7 @@ systemctl daemon-reload
 systemctl enable autosett
 #wget -O /etc/set.sh "https://raw.githubusercontent.com/gilagajet/premvps/main/set.sh"
 #chmod +x /etc/set.sh
-history -c
+#history -c
 echo "1.2" > /home/ver
 clear
 echo " "
