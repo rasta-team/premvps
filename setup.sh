@@ -65,32 +65,32 @@ wget -O /etc/nginx/conf.d/vps.conf "https://raw.githubusercontent.com/gilagajet/
 echo "0 0 * * * root /sbin/reboot" > /etc/cron.d/reboot
 
 #finish
-#rm -f /root/ssh-vpn.sh
+rm -f /root/ssh-vpn.sh
 #rm -f /root/sstp.sh
 rm -f /root/wg.sh
 rm -f /root/ss.sh
 rm -f /root/ssr.sh
 rm -f /root/ins-vt.sh
 #rm -f /root/ipsec.sh
-rm -f /root/set-br.sh
+#rm -f /root/set-br.sh
 #cat <<EOF> /etc/systemd/system/autosett.service
-#[Unit]
-#Description=autosetting
-#Documentation=https://vpninjector.com
+[Unit]
+Description=autosetting
+Documentation=https://gilagajet.xyz
 
-#[Service]
-#Type=oneshot
-#ExecStart=/bin/bash /etc/set.sh
-#RemainAfterExit=yes
+[Service]
+Type=oneshot
+ExecStart=/bin/bash /etc/set.sh
+RemainAfterExit=yes
 
-#[Install]
-#WantedBy=multi-user.target
+[Install]
+WantedBy=multi-user.target
 #EOF
 systemctl daemon-reload
 systemctl enable autosett
 #wget -O /etc/set.sh "https://raw.githubusercontent.com/gilagajet/premvps/main/set.sh"
 #chmod +x /etc/set.sh
-#history -c
+history -c
 echo "1.2" > /home/ver
 clear
 echo " "
@@ -137,10 +137,10 @@ echo "   - White Label" | tee -a log-install.txt
 echo "   - Installation Log --> /root/log-install.txt"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo "   - Dev/Main                : Horas Marolop Amsal Siregar"  | tee -a log-install.txt
-echo "   - Telegram                : T.me/Horasss"  | tee -a log-install.txt
-echo "   - Instagram               : @horas_96"  | tee -a log-install.txt
-echo "   - Whatsapp                : 082386143124"  | tee -a log-install.txt
-echo "   - Facebook                : https://www.facebook.com/Marlosirega" | tee -a log-install.txt
+echo "   - Telegram                : t.me/gilagajet"  | tee -a log-install.txt
+echo "   - Instagram               : @gilagajet"  | tee -a log-install.txt
+echo "   - Whatsapp                : 010-4420303"  | tee -a log-install.txt
+echo "   - Facebook                : https://www.facebook.com/gilagajet" | tee -a log-install.txt
 echo "------------------Script Mod By GilaGajet-----------------" | tee -a log-install.txt
 echo ""
 rm -f setup.sh
