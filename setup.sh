@@ -73,19 +73,19 @@ rm -f /root/ssr.sh
 rm -f /root/ins-vt.sh
 #rm -f /root/ipsec.sh
 rm -f /root/set-br.sh
-cat <<EOF> /etc/systemd/system/autosett.service
-[Unit]
-Description=autosetting
-Documentation=https://vpninjector.com
+#cat <<EOF> /etc/systemd/system/autosett.service
+#[Unit]
+#Description=autosetting
+#Documentation=https://vpninjector.com
 
-[Service]
-Type=oneshot
-ExecStart=/bin/bash /etc/set.sh
-RemainAfterExit=yes
+#[Service]
+#Type=oneshot
+#ExecStart=/bin/bash /etc/set.sh
+#RemainAfterExit=yes
 
-[Install]
-WantedBy=multi-user.target
-EOF
+#[Install]
+#WantedBy=multi-user.target
+#EOF
 systemctl daemon-reload
 systemctl enable autosett
 #wget -O /etc/set.sh "https://raw.githubusercontent.com/gilagajet/premvps/main/set.sh"
@@ -122,13 +122,13 @@ echo "   - V2RAY Vless None TLS    : 8880"  | tee -a log-install.txt
 echo "   - Trojan                  : 2087"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo "   >>> Server Information & Other Features"  | tee -a log-install.txt
-echo "   - Timezone                : Asia/Jakarta (GMT +7)"  | tee -a log-install.txt
+echo "   - Timezone                : Asia/Kuala_Lumpur (GMT +8)"  | tee -a log-install.txt
 echo "   - Fail2Ban                : [ON]"  | tee -a log-install.txt
 echo "   - Dflate                  : [ON]"  | tee -a log-install.txt
 echo "   - IPtables                : [ON]"  | tee -a log-install.txt
 echo "   - Auto-Reboot             : [ON]"  | tee -a log-install.txt
 echo "   - IPv6                    : [OFF]"  | tee -a log-install.txt
-echo "   - Autoreboot On 05.00 GMT +7" | tee -a log-install.txt
+echo "   - Autoreboot On 00.00 GMT +8" | tee -a log-install.txt
 echo "   - Autobackup Data" | tee -a log-install.txt
 echo "   - Restore Data" | tee -a log-install.txt
 echo "   - Auto Delete Expired Account" | tee -a log-install.txt
@@ -141,6 +141,6 @@ echo "   - Telegram                : T.me/Horasss"  | tee -a log-install.txt
 echo "   - Instagram               : @horas_96"  | tee -a log-install.txt
 echo "   - Whatsapp                : 082386143124"  | tee -a log-install.txt
 echo "   - Facebook                : https://www.facebook.com/Marlosirega" | tee -a log-install.txt
-echo "------------------Script Created By Horas Marolop Amsal Siregar-----------------" | tee -a log-install.txt
+echo "------------------Script Mod By GilaGajet-----------------" | tee -a log-install.txt
 echo ""
 rm -f setup.sh
