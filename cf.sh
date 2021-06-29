@@ -15,9 +15,9 @@ fi
 apt install jq curl -y
 DOMAIN=vpninjector.com
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c4)
-SUB_DOMAIN=${sub}.vpninjector.com
-CF_ID=baxiamania@gmail.com
-CF_KEY=e790e6961a311853568fbccd227e043533482
+SUB_DOMAIN=${sub}.gilagajet.xyz
+CF_ID=gilagajet@gmail.com
+CF_KEY=XXXXX
 set -euo pipefail
 IP=$(wget -qO- icanhazip.com);
 echo "Updating DNS for ${SUB_DOMAIN}..."
