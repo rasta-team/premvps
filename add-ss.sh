@@ -50,7 +50,7 @@ cat > /etc/shadowsocks-libev/$user-tls.json<<END
     "method":"aes-256-cfb",
     "fast_open":true,
     "no_delay":true,
-    "nameserver":"8.8.8.8",
+    "nameserver":"1.1.1.1",
     "mode":"tcp_and_udp",
     "plugin":"obfs-server",
     "plugin_opts":"obfs=tls"
@@ -65,7 +65,7 @@ cat > /etc/shadowsocks-libev/$user-http.json <<-END
     "method":"aes-256-cfb",
     "fast_open":true,
     "no_delay":true,
-    "nameserver":"8.8.8.8",
+    "nameserver":"1.1.1.1",
     "mode":"tcp_and_udp",
     "plugin":"obfs-server",
     "plugin_opts":"obfs=http"
