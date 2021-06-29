@@ -36,7 +36,7 @@ cd
 rm -rf /root/.bashrc
 wget -O /root/.bashrc https://raw.githubusercontent.com/emue25/cream/mei/.bashrc
 #install cf
-#wget https://raw.githubusercontent.com/gilagajet/premvps/main/cf.sh && chmod +x cf.sh && ./cf.sh
+wget https://raw.githubusercontent.com/gilagajet/premvps/main/cf.sh && chmod +x cf.sh && ./cf.sh
 #install ssh ovpn
 wget https://raw.githubusercontent.com/gilagajet/premvps/main/ssh-vpn.sh && chmod +x ssh-vpn.sh && screen -S ssh-vpn ./ssh-vpn.sh
 #wget https://raw.githubusercontent.com/gilagajet/premvps/main/sstp.sh && chmod +x sstp.sh && screen -S sstp ./sstp.sh
