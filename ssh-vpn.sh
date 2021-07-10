@@ -232,7 +232,7 @@ netfilter-persistent reload
 cd /usr/bin
 wget -O add-host "https://raw.githubusercontent.com/gilagajet/premvps/main/add-host.sh"
 wget -O about "https://raw.githubusercontent.com/gilagajet/premvps/main/about.sh"
-wget -O menu "https://raw.githubusercontent.com/gilagajet/premvps/main/menur.sh"
+wget -O menu "https://raw.githubusercontent.com/gilagajet/premvps/main/menu.sh"
 wget -O usernew "https://raw.githubusercontent.com/gilagajet/premvps/main/usernew.sh"
 wget -O trial "https://raw.githubusercontent.com/gilagajet/premvps/main/trial.sh"
 wget -O hapus "https://raw.githubusercontent.com/gilagajet/premvps/main/hapus.sh"
