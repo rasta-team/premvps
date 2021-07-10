@@ -1,9 +1,9 @@
 #!/bin/bash
 
 cat /usr/bin/bannermenu | lolcat
-echo -e "                                 [*][*][*]======================================[*][*][*]"| lolcat
+echo -e "[*][*][*]======================================[*][*][*]"| lolcat
 echo -e "                                                  "| lolcat
-echo -e "            AutoScript by VPNinjector.com"| lolcat
+echo -e "            AutoScript by GilaGajet"| lolcat
 echo -e "                                                   "| lolcat
 echo -e "            [1] Create Account Vmess"| lolcat
 echo -e "            [2] Create Account Vless"| lolcat
