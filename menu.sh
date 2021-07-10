@@ -15,7 +15,7 @@ fi
 clear
 #!/bin/bash
 cat /usr/bin/bannermenu | lolcat
-echo -e "                  ===================================================="| lolcat
+echo -e "===================================================="| lolcat
 echo -e "                                                   "| lolcat
 echo -e "            AutoScript By GilaGajet" | lolcat
 echo -e "                                                   "| lolcat
