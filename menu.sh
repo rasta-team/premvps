@@ -22,9 +22,8 @@ echo -e "                                                   "| lolcat
 echo -e "            [1] SSH/OpenVPN" | lolcat
 echo -e "            [2] Shadowsocks/ShadowsocksR" | lolcat
 echo -e "            [3] Wireguard" | lolcat
-echo -e "            [4] V2Ray [VLESS/VMESS]" | lolcat
-echo -e "            [5] Trojan" | lolcat
-echo -e "            [6] More Option [WIP]" | lolcat
+echo -e "            [4] V2Ray [VLESS/VMESS] & Trojan" | lolcat
+echo -e "            [5] More Option [WIP]" | lolcat
 echo -e "            [x] Exit" | lolcat
 echo -e "                                                   "| lolcat
 read -p "      Select From Options [1-4 or x] :  " menu
@@ -45,9 +44,6 @@ wireguard
 vvt
 ;;
 5)
-trojan-menu
-;;
-6)
 menur
 ;;
 x)
