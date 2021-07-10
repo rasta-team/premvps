@@ -33,7 +33,7 @@ echo -e "[*][*][*]======================================[*][*][*]" | lolcat
 clear
 case $menu in
 1)
-openvpn
+openvpn-menu
 ;;
 2)
 shadowsocks
