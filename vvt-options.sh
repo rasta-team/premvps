@@ -3,7 +3,7 @@
 echo -e "                                                  "| lolcat
 echo -e "[*][*][*]======================================[*][*][*]"| lolcat
 echo -e "                                                   "| lolcat
-echo -e "            AutoScript By VPNinjector.com"| lolcat
+echo -e "            AutoScript By GilaGajet"| lolcat
 echo -e "                                                  "| lolcat
 echo -e "            [1] Renew Account Vmess"| lolcat
 echo -e "            [2] Renew Account Vless"| lolcat
