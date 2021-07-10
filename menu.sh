@@ -45,7 +45,7 @@ wireguard
 vvt
 ;;
 5)
-trojan
+trojan-menu
 ;;
 6)
 menur
