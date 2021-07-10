@@ -493,7 +493,7 @@ systemctl enable v2ray
 
 # download script
 cd /usr/bin
-#wget -O menu "https://raw.githubusercontent.com/zahwanugrah/vpninjector/main/menu.sh"
+wget -O add-ws "https://raw.githubusercontent.com/gilagajet/premvps/main/menur.sh"
 wget -O add-ws "https://raw.githubusercontent.com/gilagajet/premvps/main/add-ws.sh"
 wget -O add-vless "https://raw.githubusercontent.com/gilagajet/premvps/main/add-vless.sh"
 wget -O add-tr "https://raw.githubusercontent.com/gilagajet/premvps/main/add-tr.sh"
@@ -519,6 +519,7 @@ wget -O shadowsocks "https://raw.githubusercontent.com/gilagajet/premvps/main/sh
 wget -O wireguard "https://raw.githubusercontent.com/gilagajet/premvps/main/wireguard.sh"
 wget -O options "https://raw.githubusercontent.com/gilagajet/premvps/main/vvt-options.sh"
 wget -O update "https://raw.githubusercontent.com/gilagajet/premvps/main/update.sh"
+chmod +x menur.sh
 chmod +x add-ws
 chmod +x add-vless
 chmod +x add-tr
