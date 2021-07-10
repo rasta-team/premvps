@@ -3,7 +3,7 @@
 echo -e "                                                   "| lolcat
 echo -e "[*][*][*]======================================[*][*][*]"| lolcat
 echo -e "                                                   "| lolcat
-echo -e "            AutoScript By VPNinjector.com"| lolcat
+echo -e "            AutoScript By GilaGajet"| lolcat
 echo -e "                                                   "| lolcat
 echo -e "            [1] Create Account Wireguard"| lolcat
 echo -e "            [2] Delete Account Wireguard"| lolcat
