@@ -260,6 +260,7 @@ wget -O port-vless "https://raw.githubusercontent.com/gilagajet/premvps/main/por
 wget -O wbmn "https://raw.githubusercontent.com/gilagajet/premvps/main/webmin.sh"
 wget -O xp "https://raw.githubusercontent.com/gilagajet/premvps/main/xp.sh"
 wget -O kernel-updt "https://raw.githubusercontent.com/gilagajet/premvps/main/kernel-update.sh"
+wget -O openvpn "https://raw.githubusercontent.com/gilagajet/premvps/main/openvpn.sh"
 chmod +x add-host
 chmod +x menu
 chmod +x usernew
@@ -290,6 +291,7 @@ chmod +x port-vless
 chmod +x wbmn
 chmod +x xp
 chmod +x kernel-updt
+chmod +x openvpn
 echo "0 5 * * * root clear-log && reboot" >> /etc/crontab
 echo "0 0 * * * root xp" >> /etc/crontab
 # remove unnecessary files
