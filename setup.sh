@@ -143,4 +143,4 @@ echo "   - Whatsapp                : 010-4420303"  | tee -a log-install.txt
 echo "   - Facebook                : https://www.facebook.com/gilagajet" | tee -a log-install.txt
 echo "------------------Script Mod By GilaGajet-----------------" | tee -a log-install.txt
 echo ""
-rm -f setup.sh
+rm -r setup.sh
