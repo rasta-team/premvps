@@ -17,12 +17,14 @@ clear
 cat /usr/bin/bannermenu | lolcat
 echo -e "                  ===================================================="| lolcat
 echo -e "                                                   "| lolcat
-echo -e "            AutoScript By VPNinjector.com" | lolcat
+echo -e "            AutoScript By GilaGajet" | lolcat
 echo -e "                                                   "| lolcat
-echo -e "            [1] Vmess/Vless/Trojan" | lolcat
+echo -e "            [1] OpenVPN" | lolcat
 echo -e "            [2] Shadowsocks/ShadowsocksR" | lolcat
 echo -e "            [3] Wireguard" | lolcat
-echo -e "            [4] Update Script" | lolcat
+echo -e "            [4] V2Ray [VLESS/VMESS]" | lolcat
+echo -e "            [5] Trojan" | lolcat
+echo -e "            [6] More Option" | lolcat
 echo -e "            [x] Exit" | lolcat
 echo -e "                                                   "| lolcat
 read -p "      Select From Options [1-4 or x] :  " menu
@@ -31,7 +33,7 @@ echo -e "[*][*][*]======================================[*][*][*]" | lolcat
 clear
 case $menu in
 1)
-vvt
+openvpn
 ;;
 2)
 shadowsocks
@@ -40,7 +42,13 @@ shadowsocks
 wireguard
 ;;
 4)
-update
+vvt
+;;
+5)
+trojan
+;;
+6)
+menur
 ;;
 x)
 clear
